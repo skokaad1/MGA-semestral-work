@@ -1,0 +1,127 @@
+:imagesdir: bitmap
+:couchbase_version: current
+:toc: 
+:project_id: gs-intro-to-js
+:icons: font
+:source-highlighter: prettify
+:tags: javascript,ecmasscript,js
+
+== Bitmap 1
+
+=== Source files
+
+image::jester-source.jpg[jester,300]
+
+This image was taken from a bazar listing on: 
+https://www.ebay.com/itm/123328038161
+
+image::me-legs.jpg[legs, 300]
+
+This image was personally taken by my brother.
+
+image::me-torso.jpg[torso, 300]
+
+This image was personally taken by my brother.
+
+image::venetia.jpg[venetia, 300]
+
+This image was taken from a tumblr blog: 
+https://sognarevenezia.tumblr.com/
+
+=== Workflow
+==== Step 1) Cropping source files
+
+Starting with the scissors tool, a rough outline was selected on both the mask, figure and legs.
+Furthermore the created selection was used to add a layer mask. Using a paintbrush tool of *size 4-18* with brush type: *2. Hardness 075*, by painting into the layer mask, selection was adjusted to finely crop the objects.
+
+image::step1-mask.jpg[mask, 300]
+image::step2-me.jpg[me, 300]
+
+==== Step 2) Composition of elements
+
+Mask and body of the figure were moved to fitted into the enviroment using the *move tool*.   Furthermore, leg was cropped and fitted on the body of the figure. The second leg was made by coppying the first one, then using the *shear and scale tools* it was transformed to fit the enviroment.
+
+image::step3-position.jpg[position, 300]
+
+A copy of the background layer was made.
+Using the same workflow as with previous croppings. The fence was isolated from this copy and its layer moved infront of the figure.
+
+image::step4-position.jpg[fence, 300]
+
+==== Step 3) Shadow and reflection
+
+The mask and the figure layers were coppied. Using the *brush tool* with brush type *2. Hardness 100*, the mask and figure were painted black, merged into a single layer which opacity has been changed to 62. And then transformed using the *shear and scale tools*. Adjustments were made with brush type *2. Hardness 075* to highlight certain parts, for example the shadow on the column. Other parts were extentuated using the eraser tool, mostly around the dim orange light placed in the shadow.
+
+image::step5-shadow.jpg[position, 300]
+
+Light reflection effect was increased on the reflecting part of the mask, using a brush tool of size: 5, type: 2. Hardness 075 and color white.
+
+image::step6-sparkle.jpg[sparkle, 300]
+
+==== Step 4) Filter
+
+A filter was created using a large *airbrush tool of type 2. Hardness 075*. Selectively darkening certain areas while keeping others fully untouched. The canvas of the image was then resized, cutting of the top part in the process.
+
+image::step7-filter.jpg[filter, 300]
+
+=== Result 
+
+image::result.jpg[result, 600]
+
+Time spent on creating this photomontage, including the documentation was 10 hours.
+
+== Bitmap 2
+
+=== Source Files
+
+image::jester-source.jpg[jester,300]
+
+This image was taken from a bazar listing on: 
+https://www.ebay.com/itm/123328038161
+
+image::me-source2.jpg[me,300]
+
+This image was personally taken by my brother.
+
+image::enviroment-source2.jpg[Castle,500]
+
+This image was taken from a stock photo depository: https://www.freepik.com/free-photo/fenestrelle-s-fort-entry-italy_9183883.htm
+
+
+=== Workflow
+
+==== Step 1) Cropping source files
+
+Starting with the scissors tool, a rough outline was selected on both the figure.
+Furthermore the created selection was used to add a layer mask. Using a paintbrush tool of *size 4-18* with brush type: *2. Hardness 075*, by painting into the layer mask, selection was adjusted to finely crop the objects. The cropped mask was reused from bitmap 1.
+
+image::2step2-body.jpg[me,300]
+
+==== Step 2) Composition of elements
+
+Mask and body of the figure were moved to fitted into the enviroment using the *move tool*. Furthermore a copy of the mask layer was made, its *opacity changed to 60%* and moved right to mirror the movement seen in the figure's original head. A *brush tool* was used to add the missing left leg, picking out colours from the present one.
+
+image::2step3-composition.jpg[composition,500]
+
+==== Step 3) Filter
+
+The mask and body layers were merged into one and then copied. The copy was colorized, using the *colorize tool* into a teal color picked out from the enviroment. Its opacity then changed to 11.
+
+image::2step4-composition.jpg[composition,300]
+
+Another copy was then made. This copy was colorized using the *colorize tool* into a orange colour seen eminating from behind the corridor. This copy was then upscaled using the *scale tool*. Finally a *eraser tool* was used on most of the body of this copy. Its opacity then changed to 7.
+
+image::2step5-composition.jpg[composition,300]
+
+==== Step 3) Final touches and text
+
+Eyes of the mask were blackened using a brush tool of size 5. Text was added using the *Text tool*, text size is 60. Fonts being *Times New Roman, Bold* on "Jester's privilige" and *Times New Roman* on the rest.
+
+
+//The left leg has been added using a paintbrush tool and colors picked from the present leg and shoe. 
+
+=== Result 
+
+image::2step6-text.jpg[text,500]
+
+Time spent on creating this photomontage, including the documentation was 6 hours.
