@@ -1,0 +1,86 @@
+:imagesdir: vector
+:couchbase_version: current
+:toc:  
+:project_id: gs-intro-to-js
+:icons: font
+:source-highlighter: prettify
+:tags: javascript,ecmasscript,js
+
+
+== Source files
+
+image::jester-source.jpg[jester,300]
+
+This image was taken from a bazar listing on: 
+https://www.ebay.com/itm/123328038161
+
+== Tracing vectorization
+
+=== Workflow
+==== Step 1)
+
+image::obtah_1.jpg[mask, 300]
+
+This vector was created in *Affinity Designer* using the *pen tool* and the *"Preserve selection when creating new curves"* setting.All of the curves were kept selected while new ones were added directly on them to ensure connections were kept close even at high zoom-in. With this process, all of the defining features of the Venetian mask were carefully traced.
+
+==== Step 2) 
+
+image::obtah_2.jpg[position, 300]
+
+The golden lines and those of the jingle-bells and mouth were later enlarged and made to match the color of the original components; because of their line-like nature, this was easier to do than making them out of traced shapes.
+
+==== Step 3) 
+
+image::obtah_fin.jpg[position, 300]
+
+Finally, all of the shapes made by pen connections were colored using the *color picker tool* by setting the dominant color of the original picture as the background.
+
+
+=== Result 
+
+image::obtah_fin.jpg[result, 500]
+
+The total time spent on creating this vector, including the documentation, was 7 hours.
+
+== Overlay vectorization
+
+=== Workflow
+
+==== Step 1) 
+image::prekryv_1.jpg[me,300]
+
+This vector was done in *Affinity Designer*. Because of the soft shape nature of the mask, overlaying each individual element with basic shapes proved to be a difficult and arduous process. Because of this fact, i chose to only do this on half of the mask and then mirror it later once the shapes were clearly defined. which has simplified this assignment without a significant loss in the quality of the final vector.
+
+==== Step 2) 
+
+image::prekryv_2.jpg[composition,300]
+
+With the use of tools *Add* and *Substract* the basic elements were shaped to match their templates.
+
+==== Step 3) 
+
+image::prekryv_3.jpg[composition,300]
+
+In this step, the colors were picked from the original parts using the *color picker tool* and then used to color in the individual shapes. The colored lines were thereafter removed, while those of the golden lining on the mask were kept and colored to match the original.
+
+
+==== Step 4) 
+
+image::prekryv_fin.jpg[composition,300]
+
+Lastly, the mask was mirrored by copying all elements and using the *Flip Horizontal* tool.
+Minor adjustments were then made, by deleting certain shapes and moving others forward or to the back. This was done to get the desired result on both sides.
+
+=== Result 
+
+image::prekryv_fin.jpg[text,500]
+
+Time spent on creating this vector, including the documentation, was 5 hours.
+
+== Automatic vectorization
+
+=== Result 
+
+image::automatic_vectorisation.jpg[text,500]
+
+For this image, Inkscape was used with the tool trace bitmap on multicolor with 16 steps; time spent on this part of the project was 20 minutes.

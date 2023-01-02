@@ -44,7 +44,7 @@ Mask and body of the figure were moved to fitted into the enviroment using the *
 image::step3-position.jpg[position, 300]
 
 A copy of the background layer was made.
-Using the same workflow as with previous croppings. The fence was isolated from this copy and its layer moved infront of the figure.
+Using the same workflow as with previous croppings. The fence was isolated from the background and its layer moved infront of the figure.
 
 image::step4-position.jpg[fence, 300]
 
@@ -54,7 +54,7 @@ The mask and the figure layers were coppied. Using the *brush tool* with brush t
 
 image::step5-shadow.jpg[position, 300]
 
-Light reflection effect was increased on the reflecting part of the mask, using a brush tool of size: 5, type: 2. Hardness 075 and color white.
+Light reflection effect was increased on the reflecting part of the mask, using a *brush tool of size: 5, type: 2. Hardness 075* and *color white*.
 
 image::step6-sparkle.jpg[sparkle, 300]
 

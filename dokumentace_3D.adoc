@@ -1,0 +1,114 @@
+:imagesdir: 3D
+:couchbase_version: current
+:toc:  
+:project_id: gs-intro-to-js
+:icons: font
+:source-highlighter: prettify
+:tags: javascript,ecmasscript,js
+
+
+== Source files
+
+image::jester-source.jpg[jester,300]
+
+This image was taken from a bazar listing on: 
+https://www.ebay.com/itm/123328038161
+
+== 3D object
+
+=== Workflow
+==== Step 1) Start
+
+image::part_1.jpg[mask, 300]
+
+The entire 3D model was done using Blender, first off a model of a male character was imported. Then all of it was removed safe for the head. A Grid mesh was added and placed infront of the face then wrapped around it, a mirror modifier on axis X was added with clipping and merge enabled, then a Subdivision modifier was added with both *Levels viewport* and *Render* set to 5, with a carefull process of moving vertices closely to the face model  then using *subdivision* and adding *loop cuts* to add detail and precision. This was done while the grid mesh was set to wireframe visibility in viewport.
+
+
+==== Step 2) Face mask completion
+
+image::part_2.jpg[position, 300]
+
+The eyes were done by placing a picture of jester mask rougly in their position, then cutting the faces using *Knife* to get the eye shape into the mask. eyebrows were after *moved* using *proportional editing* for a better brow shape.
+The entire Grid mesh was then *coppied* and *moved* slightly back and then *merged* into the original one, in the spot between the grids faces were added by selecting individual vertices and using *New edge/face from vertices*. Connecting and closing the mask.
+
+
+
+==== Step 3) Eye mask
+
+image::part_3.jpg[position, 300]
+
+The eye mask was added by copying the mask mesh, then using the *knife* tool cutting the shape of individual Rhombs. Then *inverting the selection* of vertices and *deleting* them, with this only the Rhombs were kept. This new Eye mask made of Rhomb edges was moved slightly in front guided by Y axis. Another copy was made for later use in the next step. On the original the faces were connected by selecting vertices and using *New edge/face from vertices*. In *material properties* The eye mask was given a black color and *Metallic* was set to *0.85*
+
+==== Step 4) Eye net
+
+image::part_4.jpg[position, 300]
+
+The copy from the previous step was moved sligthly more infront guided by the Y axis. Then using *Face->Wireframe* the net effect was achieved. This net was given a yellow color in the *material properties* with Metallic set to *1*
+
+==== Step 5) Forehead
+
+image::part_5.jpg[position, 300]
+
+Using the same process as with eye mask, a copy of the face mask was made, then cut into using the *knife tool*, selection of vertices was inverted and then deleted. Keeping only the forehead edges, new faces were made using *New edge/face from vertices*. This new forehead was moved slightly infront. And given an *image texture* in the *material properties* tab
+
+==== Step 6) Mask edges
+
+image::part_6.jpg[position, 300]
+
+Another copy of the face mask was made. Then by selecting edges along the outer seams of the mask, deleting the rest and *converting* the new edges into *Curves* With bevel set to Round and edges Depth to 0.04 the outer lines were achieved. These were then converted back into a mesh, and given a Subdibision modifier with both *Levels Viewport* and *Render* set to 2.
+
+==== Step 7) Jester hat
+
+image::part_7.jpg[position, 300]
+
+Another copy of the face mask was made. Then with a process of *extrusion*, *rotation of faces* and *moving* with *Proportional editing* on. The shape of the top mask was achieved. Everything beneath the top part was then deleted on this copy. And then it was given an *Image Texture*. Slight adjustments were made by moving vertices along the Z axis to cover the entirety of the original mask above the forehead.
+
+==== Step 8) Top fringes
+
+image::part_8.jpg[position, 300]
+
+The golden lines were done in the same way as in Step 6. Copy, Selecting the edges, deleting the rest and then converting them to curves. In the Shading tab with *Node Wrangler* addon enabled these were given a downloaded texture.
+
+==== Step 9) Decorative spirals
+
+image::part_9.jpg[position, 300]
+
+The decorative lines along the cheeks and forehead were done by copying the face mask, cutting the desired edges into it with a *knife tool*, deleting the rest and then *converting* these edges into *curves* with *bevel* set to round on *depth 0.01*. These were given the same material as the eye net part of the mask.
+
+==== Step 10) Decorative head
+
+image::part_10.jpg[position, 300]
+
+This was done by copying the face mask, closing the eyes with *New edge/face from vertices*. And then *moved*, *resized* and *rotated* to fit on the forehead. It was given the same material as  the face net.
+
+==== Step 11) Lips
+
+image::part_11.jpg[position, 300]
+
+The lips were made by another copy of the face mask, cut into the shape with a *knife* tool and deleting the rest and then creating new faces with *New edge/face from vertices*, then they were moved sligthly infront. and Individual vertices were moved to cover the entire area they are meant to.
+
+==== Step 12) Jingle-bells
+
+image::part_12.jpg[position, 300]
+
+These were created by adding a *UV sphere mesh* resizing it to proper scale, then selecting the middle ring and using the *scale* tool to enlarge it. Then a *Torus* mesh was added and with the use of *move* tool on individual faces with *Proportional editing* on, the torus was changed to resemble a chain-link. These 2 parts were coppied multiple times, moved and rotated to their respective places, merged into one object. Given a *Subdivision* modifier set to 4. A bronze color was added in the material tab with *Metallic* set to 1.
+
+==== Step 13) Pearls
+
+image::part_13.jpg[position, 300]
+
+These were created by adding a *UV sphere mesh*, scaling it to a small size. Then they were coppied and moved to their respective places. Merged into one object and given a white color and Metallic set to 1.
+
+==== Step 14) Fringe
+
+image::part_14.jpg[position, 300]
+
+A Cube mesh was added, with subdivison modifier set to 5. With a process of *extrusion*, *rotation*, and *moving* a small part of the fringe was made, this was then moved into place, *coppied* multiple times, these coppies were *rotated*, *moved*, *extruded* to change their appearance as for them all to not be same. With this process the effect of the top-mask fringe was achievied on one side, then they were all merged into a singular object. This object was *coppied*, *rotated* and *moved* as to fit on the other side of the mask. Achieving the entire fringe look.
+
+=== Result 
+
+image::final_1.jpg[result, 500]
+image::final_2.jpg[result, 500]
+image::final_3.jpg[result, 500]
+
+The total time spent on creating this model was roughly 45 hours.
