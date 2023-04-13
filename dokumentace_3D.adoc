@@ -109,6 +109,5 @@ A Cube mesh was added, with subdivison modifier set to 5. With a process of *ext
 
 image::final_1.jpg[result, 500]
 image::final_2.jpg[result, 500]
-image::final_3.jpg[result, 500]
 
 The total time spent on creating this model was roughly 45 hours.
